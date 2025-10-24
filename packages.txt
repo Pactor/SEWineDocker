@@ -1,0 +1,15 @@
+software-properties-common
+curl
+gnupg2
+wget
+net-tools
+winbind
+cabextract
+unzip
+zip
+xvfb
+sudo
+nano
+wine64
+wine32
+winetricks
