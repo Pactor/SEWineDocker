@@ -147,9 +147,9 @@ echo "World updated: $SANDBOX_FILE"
 
 read -p "Start server now? (y/n): " START_NOW
 if [[ "$START_NOW" =~ ^[Yy]$ ]]; then
-  bash /home/wine/scripts/torch_run.sh
+  bash /home/wine/scripts/run.sh
 else
   echo
   echo "⚙️ Setup complete. Start later with:"
-  echo "   bash /home/wine/scripts/torch_run.sh"
+  echo "   bash /home/wine/scripts/run.sh"
 fi

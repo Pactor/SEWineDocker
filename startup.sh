@@ -23,13 +23,13 @@ if [ ! -d "$SAVEDIR" ] || [ -z "$(ls -A "$SAVEDIR" 2>/dev/null)" ]; then
     echo "   configure_game.sh "
     echo "   setup_mods.sh "
     echo "   select_plugins.sh"
-    echo "   torch_run.sh"
+    echo "   run.sh"
     echo " "
     echo
 else
     echo "✅ ServerGame found at $SAVEDIR"
     echo "You can start Server now using:"
-    echo "/home/$(whoami)/scripts/torch_run.sh"
+    echo "/home/$(whoami)/scripts/run.sh"
     echo "You can always changes settings"
     echo "   the scripts directory contains the tools you need"
     echo "   install_world.sh will run them all "
@@ -37,7 +37,7 @@ else
     echo "   configure_game.sh "
     echo "   setup_mods.sh "
     echo "   select_plugins.sh"
-    echo "   torch_run.sh"
+    echo "   run.sh"
     echo " "
 
 fi
